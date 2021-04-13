@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 248
+  ClientHeight = 349
   ClientWidth = 515
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -85,10 +85,28 @@ object Form1: TForm1
   object ButtonLoad: TButton
     Left = 222
     Top = 192
-    Width = 251
+    Width = 200
     Height = 25
     Caption = 'Load settings'
     TabOrder = 5
     OnClick = ButtonLoadClick
+  end
+  object ButtonSincrono: TButton
+    Left = 16
+    Top = 223
+    Width = 200
+    Height = 66
+    Caption = 'Processamento Sincrono'
+    TabOrder = 6
+    OnClick = ButtonSincronoClick
+  end
+  object ButtonAssincrono: TButton
+    Left = 222
+    Top = 223
+    Width = 200
+    Height = 66
+    Caption = 'Processamento Assincrono'
+    TabOrder = 7
+    OnClick = ButtonAssincronoClick
   end
 end
